@@ -1,0 +1,23 @@
+{
+  "name": "virtual-boat",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "仮想コインで遊ぶボートレースのシミュレーション（デモ）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
